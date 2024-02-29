@@ -27,3 +27,6 @@ print(type(1.5))  # Tipo 'float'
 print(type(3 + 1j))  # Tipo 'complex'
 print(type(True))  # Tipo 'bool'
 print(type(print("Mi cadena de texto")))  # Tipo 'NoneType'
+#Aqui añado
+
+#Realmente el tipo type no vale para nada, lo  vas a usar para esatr seguro de que dato llega
