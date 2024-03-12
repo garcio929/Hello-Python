@@ -25,12 +25,14 @@ print(my_other_list[0])
 print(my_other_list[1])
 print(my_other_list[-1])
 print(my_other_list[-4])
-print(my_list.count(30))
+print(my_list.count(30))#Busca dentro de la lista
 # print(my_other_list[4]) IndexError
 # print(my_other_list[-5]) IndexError
 
+
 print(my_other_list.index("Brais"))
 
+#desempaquetar 
 age, height, name, surname = my_other_list
 print(name)
 
@@ -40,7 +42,7 @@ print(age)
 # Concatenación
 
 print(my_list + my_other_list)
-#print(my_list - my_other_list)
+#print(my_list - my_other_list) obviamente no tiene sentido 
 
 # Creación, inserción, actualización y eliminación
 
@@ -66,7 +68,7 @@ my_pop_element = my_list.pop(2)
 print(my_pop_element)
 print(my_list)
 
-del my_list[2]
+del my_list[2] #Para borrarlo esto lo elimina pero no puedo trabajar con el 
 print(my_list)
 
 # Operaciones con listas
@@ -92,3 +94,20 @@ print(my_new_list[1:3])
 my_list = "Hola Python"
 print(my_list)
 print(type(my_list))
+
+#Probando lo mio
+fruits = ['banana', 'orange', 'mango', 'lemon','banana']
+my_pops_elements = list()
+my_pops_elements.append(fruits.pop(1))
+my_pops_elements.append(fruits.pop(0))
+print(fruits)
+print(my_pops_elements)
+
+#EJERCICIOS
+#Declare an empty list
+lista_vacia = list()
+print(lista_vacia)
+#Declare a list with more than 5 items
+lista_vacia = list()
+list = (1,2,3,4,5)
+print(lista_vacia)

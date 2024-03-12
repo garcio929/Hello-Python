@@ -1,5 +1,17 @@
 # Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=2938
 
+'''
+Prestar atencion a los nombres de las variables
+ ya que no es igual que en java, aqui todo es en miniscula
+
+ Estas son variables invalidaas
+      first-name
+      first@name
+      first$name
+      num-1
+      1num
+'''
+
 ### Variables ###
 
 my_string_variable = "My String variable"
